@@ -23,7 +23,7 @@ conditions. Note that two of these (combined_11556_2 and
 combined_11556_3) have some artifact and folding that is a result of
 sectioning. We proceed cautiously with analyses for these and remove
 them for analyses that depend on distance from the rim, as the folding
-is clearly through the center of the organoid.
+through the entire organoid may distort distances.
 
 ``` r
 GBO <- Load10X_Spatial('~/Library/CloudStorage/Box-Box/GBO_2/Hypoxia_Structure/GBM_Spatial/FF_Visium_12_2024/Visium_A/outs/',

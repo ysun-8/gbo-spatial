@@ -78,7 +78,10 @@ SpatialDimPlot(combined_9121, label = TRUE, label.size = 3, pt.size.factor = 5, 
 
 ![](1_Import_Counts_Integration_files/figure-gfm/unnamed-chunk-3-2.png)<!-- -->
 
-Next up is FF (Batch 1) for several organoids in slice A.
+Next up is FF (Batch 1) for several organoids in slice A. The top
+organoid in combined_9121_2 had some sectioning artifact in the middle
+and we proceed cautiously with analyses with this organoid, removing it
+for calculations of distance from the rim.
 
 ``` r
 GBO <- Load10X_Spatial('~/Library/CloudStorage/Box-Box/GBO_2/Hypoxia_Structure/GBM_Spatial/FF_Visium_10_2024/Visium_A/outs/',
